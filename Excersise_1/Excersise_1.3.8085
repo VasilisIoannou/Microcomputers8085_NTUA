@@ -1,6 +1,6 @@
        
 START:
-	MVI L,00H ; L - STORE INVERE OPERATOR
+	MVI L,FFH ; L - STORE INVERSE OPERATOR
         LXI B,0F00H  ;This will be the delay (500ms = 01F4Hms)
         LDA 2000H
         CPI C8H ; Check Ift he number is larger than 200
